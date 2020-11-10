@@ -1,3 +1,80 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+a {
+ text-decoration: none;
+}
+
+body {
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-size: 14px;
+ line-height: 1.428571429;
+ color: #333333;
+ background-color: #fff;
+}
+
+.navbar {
+ background-color: #f8f8f8;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ min-height: 50px;
+ margin-bottom: 20px;
+ border: 1px solid white
+}
+
+.navbar-brand {
+ display: flex;
+ align-items: center;
+ height: 50px;
+ padding: 15px 15px;
+ font-size: 18px;
+ line-height: 20px;
+ color: #333333;
+}
+
+.navbar-new {
+ display: flex;
+ align-items: center;
+ height: 50px;
+ padding: 15px 15px;
+ font-size: 18px;
+ line-height: 20px;
+ color: #333333;
+}
+
+h2 a{
+ font-family: "Roboto Slab";
+ font-weight: 400px;
+ font-size: 30px;
+ line-height: 1.1;
+ color: #337ab7;
+}
+
+.article-container {
+ font-family: Roboto;
+ font-weight: 300;
+ font-size: 120%;
+ padding-right: 15px;
+ padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto; 
+ margin-top: 10px;
+ border: solid lightgrey 1px;
+ border-radius: 4px;
+}
+
+.container {
+ width: 970px;
+ min-height: 1px;
+ padding-right: 15px;
+ padding-left: 15px; 
+ display: flex;
+ justify-content: center;
+}
+
+.row {
+ display: table;
+ margin-right: -15px;
+ margin-left: -15px;
+}
